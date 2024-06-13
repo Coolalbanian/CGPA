@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    //first we have to include the classes we're taking
+    float math, science, english, history, art, gym, computer, avg;
+    
+    //input the grades for the classes
+    cout << "Enter your grade for math: ";
+    math = {};
+    cin >> math;
+    
+    cout << "\nEnter your grade for science: ";
+    science = {};
+    cin >> science;
+    
+    cout << "\nEnter your grade for engilsh: ";
+    english = {};
+    cin >> english;
+    
+    cout << "\nEnter your grade for history: ";
+    history = {};
+    cin >> history;
+    
+    cout << "\nEnter your grade for art: ";
+    art = {};
+    cin >> art;
+    
+    cout << "\nEnter your grade for gym: ";
+    gym = {};
+    cin >> gym;
+    
+    cout << "\nEnter your grade for computer: ";
+    computer = {};
+    cin >> computer;
+    
+    //lastly despute the avg by adding up the classes and divding it by the number of classes
+    avg = ((math + science + english + history + art + gym + computer)/7);
+    cout << "\nYour calculated Gpa is: " << avg;
+    
+    return 0;
+}
